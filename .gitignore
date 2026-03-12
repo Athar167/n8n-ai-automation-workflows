@@ -1,0 +1,8 @@
+Create .gitignore with this content to prevent accidental credential leaks
+*.env
+.env.local
+secrets.json
+credentials.json
+*.key
+node_modules/
+.DS_Store
